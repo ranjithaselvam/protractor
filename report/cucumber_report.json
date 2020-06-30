@@ -1,0 +1,116 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Write test case with the help of Cucumber with Protractor using Javascript",
+    "line": 1,
+    "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-javascript",
+    "tags": [],
+    "uri": "features\\sample.feature",
+    "elements": [
+      {
+        "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-javascript;verify-the-dashboard-navigation",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "verify the dashboard navigation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "Open the atmecs dashboard website",
+            "match": {
+              "location": "stepDefinitions\\step.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "Click the rest api test result link and select  the status as pass",
+            "match": {
+              "location": "stepDefinitions\\step.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "verify the user got the status pass or not",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-javascript;verify-resent-run-tab-in-main-navigation",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify resent run tab in main navigation",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "Click recent run tab",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "select the product and testcase",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "verify the status and detail.",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
