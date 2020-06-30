@@ -1,10 +1,10 @@
-Feature: Write test case with the help of Cucumber with Protractor using Javascript
+Feature: Write test case with the help of Cucumber with Protractor using Typescript
 
 
      Scenario: verify the dashboard navigation
-          Given Open the atmecs dashboard website
-          When  Click the rest api test result link and select  the status as pass
-          Then  verify the user got the status pass or not
+          Given Open the atmecs dashboard website and check the default tab selection
+          When  Click the rest api test result link and filter the status as pass 
+          Then  verify the user got the all pass status
           
 
 

@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "Write test case with the help of Cucumber with Protractor using Javascript",
+    "name": "Write test case with the help of Cucumber with Protractor using Typescript",
     "line": 1,
-    "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-javascript",
+    "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-typescript",
     "tags": [],
     "uri": "features\\sample.feature",
     "elements": [
       {
-        "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-javascript;verify-the-dashboard-navigation",
+        "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-typescript;verify-the-dashboard-navigation",
         "keyword": "Scenario",
         "line": 4,
         "name": "verify the dashboard navigation",
@@ -19,33 +19,29 @@
             "arguments": [],
             "keyword": "Given ",
             "line": 5,
-            "name": "Open the atmecs dashboard website",
+            "name": "Open the atmecs dashboard website and check the default tab selection",
             "match": {
               "location": "stepDefinitions\\step.ts:5"
             },
             "result": {
               "status": "passed",
-              "duration": 15128000000
+              "duration": 15493000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 6,
-            "name": "Click the rest api test result link and select  the status as pass",
-            "match": {
-              "location": "stepDefinitions\\step.ts:17"
-            },
+            "name": "Click the rest api test result link and filter the status as pass",
             "result": {
-              "status": "passed",
-              "duration": 2000000
+              "status": "undefined"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 7,
-            "name": "verify the user got the status pass or not",
+            "name": "verify the user got the all pass status",
             "result": {
               "status": "undefined"
             }
@@ -58,13 +54,13 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 1000000
             }
           }
         ]
       },
       {
-        "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-javascript;verify-resent-run-tab-in-main-navigation",
+        "id": "write-test-case-with-the-help-of-cucumber-with-protractor-using-typescript;verify-resent-run-tab-in-main-navigation",
         "keyword": "Scenario",
         "line": 11,
         "name": "Verify resent run tab in main navigation",
@@ -76,8 +72,12 @@
             "keyword": "Given ",
             "line": 12,
             "name": "Click recent run tab",
+            "match": {
+              "location": "stepDefinitions\\step.ts:40"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -85,8 +85,12 @@
             "keyword": "When ",
             "line": 13,
             "name": "select the product and testcase",
+            "match": {
+              "location": "stepDefinitions\\step.ts:45"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -94,8 +98,12 @@
             "keyword": "Then ",
             "line": 14,
             "name": "verify the status and detail.",
+            "match": {
+              "location": "stepDefinitions\\step.ts:50"
+            },
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -106,7 +114,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 0
+              "duration": 2000000
             }
           }
         ]

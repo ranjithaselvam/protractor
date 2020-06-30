@@ -279,7 +279,7 @@ pre {
           <a class="navbar-brand">Cucumberjs Report</a>
           <div class="project-name visible-md visible-lg">protractor</div>
           <div class="label-container">
-            <span class="label label-success" onclick="toggle('.feature-passed')" title=scenarios>Passed: 0</span>
+            <span class="label label-success" onclick="toggle('.feature-passed')" title=scenarios>Passed: 1</span>
             <span class="label label-danger" onclick="toggle('.feature-failed')" title=scenarios>Failed: 0</span>
           </div>
         </div>
@@ -288,7 +288,7 @@ pre {
 
     <div class="container">
 
-      <div class="generated-on">Tue Jun 30 2020 19:44:34 GMT+0530 (India Standard Time)</div>
+      <div class="generated-on">Tue Jun 30 2020 20:45:23 GMT+0530 (India Standard Time)</div>
 
       <div class="row">
         <div class="chart col-lg-6 col-md-6" id="piechart_features"></div>
@@ -381,15 +381,16 @@ pre {
                     <div class="tags">
                     </div>
                     
-                    <a data-toggle="collapse" href="#collapseFeatureprotractor749da5ea-0655-49d7-975f-864a28a2d7b3">
+                    <a data-toggle="collapse" href="#collapseFeatureprotractor524d0e00-f457-4d88-a1b6-0b8615af7384">
                         <i class="glyphicon glyphicon-chevron-right"></i>
                         <i class="glyphicon glyphicon-chevron-down"></i>
-                        <b>Feature:</b>Write test case with the help of Cucumber with Protractor using Javascript
+                        <b>Feature:</b>Write test case with the help of Cucumber with Protractor using Typescript
                         <span class="label-container">
-              
+              <span class="label label-success"
+                                                         title="1 Scenarios Passed">1</span>
               
               <span class="label label-info"
-                                                             title="2 Scenarios Undefined">2</span>
+                                                             title="1 Scenarios Undefined">1</span>
               
               
               
@@ -397,7 +398,7 @@ pre {
                     </a>
                 </h4>
             </div>
-            <div id="collapseFeatureprotractor749da5ea-0655-49d7-975f-864a28a2d7b3" class="panel-collapse collapse">
+            <div id="collapseFeatureprotractor524d0e00-f457-4d88-a1b6-0b8615af7384" class="panel-collapse collapse">
                 <div class="panel-body">
                     
                     
@@ -410,7 +411,7 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenarioprotractorc49cb2df-7058-483e-9d30-e5a71cf3c7af">
+                                <a data-toggle="collapse" href="#collapseScenarioprotractor640c1f8f-37a2-4125-ac74-d768500f77ba">
                                     <div>
 
                                         <div style="padding-right: 50px">
@@ -421,9 +422,9 @@ pre {
                                         <div>
                             <span class="label-container">
                               <span class="label label-success"
-                                                               title="2 Steps Passed">2</span>
+                                                               title="1 Steps Passed">1</span>
                               <span class="label label-info"
-                                                                   title="1 Steps Undefined">1</span>
+                                                                   title="2 Steps Undefined">2</span>
                               
                               
                               
@@ -435,7 +436,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenarioprotractorc49cb2df-7058-483e-9d30-e5a71cf3c7af"
+                        <div id="collapseScenarioprotractor640c1f8f-37a2-4125-ac74-d768500f77ba"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -452,49 +453,11 @@ pre {
                                     
                                     <span class="text">
                         <span class="keyword highlight">Given </span>
-                          <span> Open the atmecs dashboard website</span>
+                          <span> Open the atmecs dashboard website and check the default tab selection</span>
                             
                           
                               <span class="step-duration">
-                               15s 128ms
-                              </span>
-                            
-                         
-                            
-                          
-                          <!-- Adding data table data-->
-                          
-                      </span>
-                                
-                                
-
-                                    
-
-                                    
-
-                                    
-
-                                    
-                                </div>
-                                </p>
-                                
-                                
-                                
-                                <p class="scenario-container">
-                                <div class="row steps">
-                                    
-                                    
-                                    <span class="label label-success" title="Success"><i
-                                            class="glyphicon glyphicon-ok"></i></span>
-                                    
-                                    
-                                    <span class="text">
-                        <span class="keyword highlight">When </span>
-                          <span> Click the rest api test result link and select  the status as pass</span>
-                            
-                          
-                              <span class="step-duration">
-                               2ms
+                               15s 493ms
                               </span>
                             
                          
@@ -527,8 +490,8 @@ pre {
                                     
                                     
                                     <span class="text">
-                        <span class="keyword highlight">Then </span>
-                          <span> verify the user got the status pass or not</span>
+                        <span class="keyword highlight">When </span>
+                          <span> Click the rest api test result link and filter the status as pass</span>
                             
                           
                               <span class="step-duration">
@@ -544,7 +507,52 @@ pre {
                                 
                                 
                                 <pre class=info>
-<br>Then(/^verify the user got the status pass or not$/, function(callback) {
+<br>Then(/^Click the rest api test result link and filter the status as pass$/, function(callback) {
+  // Write code here that turns the phrase above into concrete actions
+  callback(null, 'pending');
+});
+                        </pre>
+                                    
+
+                                    
+
+                                    
+
+                                    
+
+                                    
+                                </div>
+                                </p>
+                                
+                                
+                                
+                                <p class="scenario-container">
+                                <div class="row steps">
+                                    
+                                    
+                                    <span class="label label-info" title="Undefined"><i
+                                            class="glyphicon glyphicon-flash"></i></span>
+                                    
+                                    
+                                    <span class="text">
+                        <span class="keyword highlight">Then </span>
+                          <span> verify the user got the all pass status</span>
+                            
+                          
+                              <span class="step-duration">
+                               0s
+                              </span>
+                            
+                         
+                            
+                          
+                          <!-- Adding data table data-->
+                          
+                      </span>
+                                
+                                
+                                <pre class=info>
+<br>Then(/^verify the user got the all pass status$/, function(callback) {
   // Write code here that turns the phrase above into concrete actions
   callback(null, 'pending');
 });
@@ -577,7 +585,7 @@ pre {
                                 <div class="tags">
                                 </div>
                                 
-                                <a data-toggle="collapse" href="#collapseScenarioprotractora81fa913-72bb-43d9-b8e7-edaa7bcba8ee">
+                                <a data-toggle="collapse" href="#collapseScenarioprotractorc0fde090-2bdb-43f5-940d-c6453b63ee19">
                                     <div>
 
                                         <div style="padding-right: 30px">
@@ -587,9 +595,9 @@ pre {
                                         </div>
                                         <div>
                             <span class="label-container">
+                              <span class="label label-success"
+                                                               title="3 Steps Passed">3</span>
                               
-                              <span class="label label-info"
-                                                                   title="3 Steps Undefined">3</span>
                               
                               
                               
@@ -601,7 +609,7 @@ pre {
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseScenarioprotractora81fa913-72bb-43d9-b8e7-edaa7bcba8ee"
+                        <div id="collapseScenarioprotractorc0fde090-2bdb-43f5-940d-c6453b63ee19"
                              class="panel-collapse collapse">
                             <div class="panel-body">
                                 <div></div>
@@ -612,8 +620,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-info" title="Undefined"><i
-                                            class="glyphicon glyphicon-flash"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
@@ -622,7 +630,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               0s
+                               1ms
                               </span>
                             
                          
@@ -633,13 +641,6 @@ pre {
                       </span>
                                 
                                 
-                                <pre class=info>
-<br>Then(/^Click recent run tab$/, function(callback) {
-  // Write code here that turns the phrase above into concrete actions
-  callback(null, 'pending');
-});
-                        </pre>
-                                    
 
                                     
 
@@ -657,8 +658,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-info" title="Undefined"><i
-                                            class="glyphicon glyphicon-flash"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
@@ -667,7 +668,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               0s
+                               1ms
                               </span>
                             
                          
@@ -678,13 +679,6 @@ pre {
                       </span>
                                 
                                 
-                                <pre class=info>
-<br>Then(/^select the product and testcase$/, function(callback) {
-  // Write code here that turns the phrase above into concrete actions
-  callback(null, 'pending');
-});
-                        </pre>
-                                    
 
                                     
 
@@ -702,8 +696,8 @@ pre {
                                 <div class="row steps">
                                     
                                     
-                                    <span class="label label-info" title="Undefined"><i
-                                            class="glyphicon glyphicon-flash"></i></span>
+                                    <span class="label label-success" title="Success"><i
+                                            class="glyphicon glyphicon-ok"></i></span>
                                     
                                     
                                     <span class="text">
@@ -712,7 +706,7 @@ pre {
                             
                           
                               <span class="step-duration">
-                               0s
+                               1ms
                               </span>
                             
                          
@@ -723,13 +717,6 @@ pre {
                       </span>
                                 
                                 
-                                <pre class=info>
-<br>Then(/^verify the status and detail.$/, function(callback) {
-  // Write code here that turns the phrase above into concrete actions
-  callback(null, 'pending');
-});
-                        </pre>
-                                    
 
                                     
 
@@ -782,8 +769,8 @@ pre {
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Features",
                                                             "failed" : 0,
-                                                            "passed" : 0,
-                                                            "notdefined" : 1,
+                                                            "passed" : 1,
+                                                            "notdefined" : 0,
                                                             "pending" : 0,
                                                             "skipped" : 0,
                                                             "ambiguous" : 0
@@ -792,8 +779,8 @@ pre {
         google.setOnLoadCallback(function() {drawChart({
                                                             "title" : "Scenarios",
                                                             "failed" : 0,
-                                                            "passed" : 0,
-                                                            "notdefined" : 2,
+                                                            "passed" : 1,
+                                                            "notdefined" : 1,
                                                             "pending" : 0,
                                                             "skipped" : 0,
                                                             "ambiguous" : 0
