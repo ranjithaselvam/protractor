@@ -1,4 +1,0 @@
-{
-    "restAPI": "(//h4[@class='media-box-heading ng-binding'])[1]",
-    "pass": "//select[@name='status']"
-}
